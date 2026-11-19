@@ -22,10 +22,10 @@ Ready-to-upload `.zip` bundles for Claude.ai are also pre-built in [`dist/`](dis
 Clone the repo and copy the skill folders into `~/.claude/skills/`:
 
 ```bash
-git clone <YOUR_REPO_URL> motion-graphics-skills
+git clone https://github.com/Shk2005/motion-graphics.git
 mkdir -p ~/.claude/skills
-cp -R motion-graphics-skills/skills/motion-graphics ~/.claude/skills/
-cp -R motion-graphics-skills/skills/saas-animation ~/.claude/skills/
+cp -R motion-graphics/skills/motion-graphics ~/.claude/skills/
+cp -R motion-graphics/skills/saas-animation ~/.claude/skills/
 ```
 
 Restart Claude Code so the new skills load.
